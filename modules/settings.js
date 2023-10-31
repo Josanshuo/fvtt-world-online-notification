@@ -49,7 +49,7 @@ export const registerSettings = function () {
         name: i18n("WORLDNOTIFICATION.open-image.name"),
         hint: i18n("WORLDNOTIFICATION.open-image.hint"),
         scope: "world",
-        default: "https://tenor.com/view/cores-rainbow-colorful-zoom-in-portal-gif-15803894",
+        default: "https://media.tenor.com/fzqWiPFak3AAAAAd/cores-rainbow.gif",
         type: String,
         onChange: debouncedReload,
         config: true
@@ -69,7 +69,7 @@ export const registerSettings = function () {
         name: i18n("WORLDNOTIFICATION.close-image.name"),
         hint: i18n("WORLDNOTIFICATION.close-image.hint"),
         scope: "world",
-        default: "https://tenor.com/view/star-seeds-vortex-portal-gif-16215502",
+        default: "https://media.tenor.com/TxklrTq454UAAAAC/star-seeds-vortex.gif",
         type: String,
         onChange: debouncedReload,
         config: true
