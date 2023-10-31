@@ -1,7 +1,7 @@
 {
   "id": "world-notification",
   "title": "World Notification",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "compatibility": {
     "minimum": "11",
     "verified": "11"
@@ -9,24 +9,29 @@
   "authors": [
     {
       "name": "Josan",
-      "discord": "ejosan",
-      "flags": {}
+      "discord": "ejosan"
     }
   ],
   "languages": [
     {
       "lang": "en",
       "name": "English",
-      "path": "lang/en.json"
+      "path": "lang/en.json",
+      "flags": {}
     }
   ],
   "esmodules": [
     "main.js"
   ],
-  "requires": [
-    {
-      "id": "lib-wrapper",
-      "type": "module"
-    }
-  ]
+  "relationships": {
+    "requires": [
+      {
+        "id": "lib-wrapper",
+        "type": "module"
+      }
+    ]
+  },
+  "url": "https://github.com/Josanshuo/fvtt-world-online-notification",
+  "manifest": "https://raw.githubusercontent.com/Josanshuo/fvtt-world-online-notification/main/module.json",
+  "download": "https://github.com/Josanshuo/fvtt-world-online-notification/archive/refs/heads/main.zip"
 }
