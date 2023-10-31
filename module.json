@@ -1,0 +1,32 @@
+{
+  "id": "world-notification",
+  "title": "World Notification",
+  "version": "0.0.1",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "authors": [
+    {
+      "name": "Josan",
+      "discord": "ejosan",
+      "flags": {}
+    }
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "esmodules": [
+    "main.js"
+  ],
+  "requires": [
+    {
+      "id": "lib-wrapper",
+      "type": "module"
+    }
+  ]
+}
