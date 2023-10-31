@@ -1,6 +1,6 @@
 # World Notification
 
-This module will help PCs to aware when a Foundry world is open, so they could join to play or just for fun. Current only support Discord, but could be easily extended to other chat platform which support webhook.
+This module will help PCs to aware when a Foundry world is open, so they could join to play or just for fun. Currently this only supports Discord, but could be easily extended to other chat platforms which support webhook.
 
 ## Install
 
