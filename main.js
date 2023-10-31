@@ -49,16 +49,28 @@ Hooks.on("ready", () => {
 	let avatar = setting("avatar");
 	let openMessage = setting("open-message").replace(worldnamePlaceholder, game.world.title);
 	let closeMessage = setting("close-message").replace(worldnamePlaceholder, game.world.title);
+	let openImage = setting("open-image");
+	let closeImage = setting("close-image");
         let payload = {
             username: username,
 	    avatar_url: avatar,
-            content: openMessage
+            content: openMessage,
+	    embeds: [{
+		    image: {
+		      url: openImage
+		    }
+		  }]
         };
 
         sendMessage(webhook, payload);
         patchFunc("Game.prototype.shutDown", async function (wrapped, ...args) {
             try {
 		payload.content = closeMessage;
+		payload.embeds = [{
+		    image: {
+		      url: closeImage
+		    }
+		  }];
                 sendMessage(webhook, payload);
             } catch(e) {
                 console.log("Wrapping Error!");
