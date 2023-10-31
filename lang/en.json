@@ -7,7 +7,10 @@
   "WORLDNOTIFICATION.avatar.hint": "User avatar for the message, default is empty which will use the avatar set for the webhook.",
   "WORLDNOTIFICATION.open-message.name": "Message when world ready",
   "WORLDNOTIFICATION.open-message.hint": "Support Discord message formatting, and %worldname% will be replaced by the actual world name.",
+  "WORLDNOTIFICATION.open-image.name": "Image in world ready message",
+  "WORLDNOTIFICATION.open-image.hint": "Image URL embeded in the message.",
   "WORLDNOTIFICATION.close-message.name": "Message when world closing",
   "WORLDNOTIFICATION.close-message.hint": "Support Discord message formatting, and %worldname% will be replaced by the actual world name.",
-  "WORLDNOTIFICATION.close-message.default": "Hurry up! The %worldname% portal is closing, I couldn't hold it anymore. Allfathers, let the dark magic flow through me one last ... time."
+  "WORLDNOTIFICATION.close-image.name": "Image in world closing message",
+  "WORLDNOTIFICATION.close-image.hint": "Image URL embeded in the message."
 }

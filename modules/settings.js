@@ -45,6 +45,16 @@ export const registerSettings = function () {
         config: true
     });
 
+    game.settings.register(modulename, "open-image", {
+        name: i18n("WORLDNOTIFICATION.open-image.name"),
+        hint: i18n("WORLDNOTIFICATION.open-image.hint"),
+        scope: "world",
+        default: "https://tenor.com/view/cores-rainbow-colorful-zoom-in-portal-gif-15803894",
+        type: String,
+        onChange: debouncedReload,
+        config: true
+    });
+
     game.settings.register(modulename, "close-message", {
         name: i18n("WORLDNOTIFICATION.close-message.name"),
         hint: i18n("WORLDNOTIFICATION.close-message.hint"),
@@ -55,4 +65,13 @@ export const registerSettings = function () {
         config: true
     });
 
+    game.settings.register(modulename, "close-image", {
+        name: i18n("WORLDNOTIFICATION.close-image.name"),
+        hint: i18n("WORLDNOTIFICATION.close-image.hint"),
+        scope: "world",
+        default: "https://tenor.com/view/star-seeds-vortex-portal-gif-16215502",
+        type: String,
+        onChange: debouncedReload,
+        config: true
+    });
 }
