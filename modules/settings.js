@@ -4,7 +4,17 @@ export const debouncedReload = foundry.utils.debounce(() => window.location.relo
 
 export const registerSettings = function () {
     let modulename = "world-notification";
-
+    
+    game.settings.register(modulename, "enable", {
+        name: i18n("WORLDNOTIFICATION.enable.name"),
+        hint: i18n("WORLDNOTIFICATION.enable.hint"),
+        scope: "world",
+        default: true,
+        type: Boolean,
+        onChange: debouncedReload,
+        config: true
+    });
+    
     game.settings.register(modulename, "webhook", {
         name: i18n("WORLDNOTIFICATION.webhook.name"),
         hint: i18n("WORLDNOTIFICATION.webhook.hint"),

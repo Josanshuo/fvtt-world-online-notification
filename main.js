@@ -42,7 +42,7 @@ Hooks.on("init", () => {
 });
 
 Hooks.on("ready", () => {
-    if (game.user.isGM) {
+    if (game.user.isGM && setting("enable")) {
 	let worldnamePlaceholder = "%worldname%";
         let webhook = setting("webhook");
 	let username = setting("username");
