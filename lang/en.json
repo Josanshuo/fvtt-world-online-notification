@@ -9,6 +9,8 @@
   "WORLDNOTIFICATION.open-message.hint": "Support Discord message formatting, and %worldname% will be replaced by the actual world name.",
   "WORLDNOTIFICATION.open-image.name": "Image in world ready message",
   "WORLDNOTIFICATION.open-image.hint": "Image URL embeded in the message.",
+  "WORLDNOTIFICATION.close-message.name": "Message when world closing",
+  "WORLDNOTIFICATION.close-message.hint": "Support Discord message formatting, and %worldname% will be replaced by the actual world name.",
   "WORLDNOTIFICATION.close-image.name": "Image in world closing message",
   "WORLDNOTIFICATION.close-image.hint": "Image URL embeded in the message."
 }
