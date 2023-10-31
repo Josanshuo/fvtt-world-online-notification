@@ -1,4 +1,6 @@
-# Send Foundry World Online Message to Discord
+# World Notification
+
+This module will help PCs to aware when a Foundry world is open, so they could join to play or just for fun. Current only support Discord, but could be easily extended to other chat platform which support webhook.
 
 ## Install
 
