@@ -11,6 +11,7 @@ export const registerSettings = function () {
         scope: "world",
         default: true,
         type: Boolean,
+        onChange: debouncedReload,
         config: true
     });
     
