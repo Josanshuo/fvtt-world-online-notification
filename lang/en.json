@@ -1,4 +1,6 @@
 {
+  "WORLDNOTIFICATION.enable.name": "Enable Send Message",
+  "WORLDNOTIFICATION.enable.hint": "Toggle on and off of this module.",
   "WORLDNOTIFICATION.webhook.name": "Webhook URL",
   "WORLDNOTIFICATION.webhook.hint": "Current tested Discord webhook.",
   "WORLDNOTIFICATION.username.name": "User Name",
