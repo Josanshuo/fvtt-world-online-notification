@@ -9,7 +9,7 @@ export const registerSettings = function () {
         name: i18n("WORLDNOTIFICATION.enable.name"),
         hint: i18n("WORLDNOTIFICATION.enable.hint"),
         scope: "world",
-        default: true,
+        default: false,
         type: Boolean,
         onChange: debouncedReload,
         config: true
