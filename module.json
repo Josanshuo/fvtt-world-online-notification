@@ -1,7 +1,7 @@
 {
   "id": "world-notification",
   "title": "World Notification",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "compatibility": {
     "minimum": "11",
     "verified": "11"
@@ -23,14 +23,6 @@
   "esmodules": [
     "main.js"
   ],
-  "relationships": {
-    "requires": [
-      {
-        "id": "lib-wrapper",
-        "type": "module"
-      }
-    ]
-  },
   "url": "https://github.com/Josanshuo/fvtt-world-online-notification",
   "manifest": "https://raw.githubusercontent.com/Josanshuo/fvtt-world-online-notification/main/module.json",
   "download": "https://github.com/Josanshuo/fvtt-world-online-notification/archive/refs/heads/main.zip"
